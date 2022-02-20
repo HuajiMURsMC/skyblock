@@ -16,7 +16,8 @@
     "LivingEntityMixin",
     "RamImpactTaskMixin",
     "SpawnRestrictionAccessor",
-    "WanderingTraderEntityMixin"
+    "WanderingTraderEntityMixin",
+    "WanderingTraderManagerMixin"
   ],
   "client": [
     "GeneratorTypeAccessor"

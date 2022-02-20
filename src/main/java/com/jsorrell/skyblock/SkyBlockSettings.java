@@ -66,4 +66,10 @@ public class SkyBlockSettings {
       desc = "A spawned fox has a chance to hold berries",
       category = {SKYBLOCK, FEATURE})
   public static boolean foxesSpawnWithBerries = false;
+
+  @Rule(
+      desc = "Make alert when Wandering Trader is coming",
+      category = {SKYBLOCK, FEATURE}
+  )
+  public static boolean wanderingTraderAlert = false;
 }

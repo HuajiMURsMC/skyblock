@@ -30,6 +30,7 @@ public class SkyBlockExtension implements CarpetExtension, ModInitializer {
     Registry.register(
         Registry.CHUNK_GENERATOR, SkyBlockGenerationSettings.NAME, SkyBlockChunkGenerator.CODEC);
     Criteria.registerAll();
+
   }
 
   @Override
